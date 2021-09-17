@@ -24,3 +24,4 @@ plt.show()
 #Training the model
 kmeans = KMeans(n_clusters = 5, init = 'k-means++', random_state = 42)
 y_kmeans = kmeans.fit_predict(X)
+
